@@ -1,0 +1,30 @@
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 231, 136);
+}
+.text{
+    margin: 30px;
+    text-align: justify;
+}
+.img5{
+    height: 232px;
+    float:right;
+    width: 165px;
+    padding: 6px;
+    margin: 16px;
+    -webkit-box-reflect: right;
+}
+ 
+
+  h1{
+      display:block;
+      text-align: center;
+  }
+  .col{
+      column-count: 3;
+  }
+  p{
+      text-align: justify;
+  }

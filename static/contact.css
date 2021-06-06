@@ -1,0 +1,54 @@
+.container h1{
+    text-align: center;
+    margin: 12px 0;
+    font-family: monospace;
+    font-size: 35px;
+    
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* background: center / cover no-repeat url("/static/img/juan-camilo-navia-maim4G7oRlo-unsplash.jpg");     */
+}
+.container::before{
+background: center / cover no-repeat url("/static/img/juan-camilo-navia-maim4G7oRlo-unsplash.jpg");
+content:"";
+position: absolute;
+top:0;
+left: 0;
+width: 100%;
+height: 112%;
+z-index:-1;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    padding: 8px;
+    margin: 6px;
+    font-size: 18px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: rgb(248, 243, 204);
+}
+.btn{
+    padding: 7px 38px;
+    margin: 14px;
+    background-color: black;
+    color: gold;
+    font-size: 20px;
+    border: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+hr{
+    padding-top: 10px;
+    outline: none;
+    width: 965pxpx;
+    background-color: gold; 
+}
+#logo{
+    display: flex;
+    color: black;
+    align-items: center;
+    font-size: 30px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 37px;
+}
+/* ----------------------------------------------------------------------------------*/
+#navbar{
+    background-color: gold;
+    padding:17px 15px;
+    font-family: 'Noto Sans JP';
+}
+#navbar ul{
+display:flex;
+flex-direction:row;
+align-items: center;
+}
+
+#navbar li{
+list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: black;;
+  
+}
+#navbar li a:hover{
+    color: white;
+}
+/* ----------------------------------------------------------------------------------*/
+#introsection{  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kanit';
+    color: white;
+    text-shadow: black 2px 2px 2px;
+    font-size: 4rem;
+    height: 800px;  
+    background: center / cover no-repeat url("/static/bg.jpg");
+    
+}
+#introsection div.small{
+    font-size: 2rem;
+    margin: 1.9px;
+}
+
+/* ----------------------------------------------------------------------------------*/
+#sponsersection{
+height: 300px;
+background-color: rgba(255, 217, 0, 0.979);
+}
+#sponsersection h1{
+    text-align: center;
+    padding-top: 20px;
+}
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+.spimage{
+    height: 172px;
+    width: 213px;
+    margin: 17px;
+    padding: 38px;
+}
+/* ----------------------------------------------------------------------------------*/
+#ourmission{
+    height: 300px;
+background-color: black;
+}
+
+#ourmission h1{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    height: 200px;
+    margin: 19px 25px;
+}
+.card h3{
+    text-align: center;
+    margin: 10px 34px -119px 15px;
+    color: white;
+}
+.card-box{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.card-img{
+    height: 100px;
+    padding: 0px 14px;
+    margin-bottom: 30px;
+}
+.card-img img{
+    height: 150px;
+    padding: 6px 72px;
+    margin-top: 18px;
+}
+
+.card-content{
+padding:  0 10px;
+}
+
+.card-content p{
+    font-size: 19px;
+    color: white;
+}
+/* ----------------------------------------------------------------------------------*/
+#footer{
+    display: flex;
+    height: 40px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans JP';
+}
